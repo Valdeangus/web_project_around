@@ -1,0 +1,27 @@
+.cards {
+    max-width: 880px;
+    max-height: 743px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 17px;
+    padding: 0;
+}
+
+.card__imagens {
+    background: white;
+    border-radius: 3%;
+}
+
+.card__imagens_img {
+    max-width: 282px;
+    max-height: 361px;
+}
+
+.card__imagens_texto {
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 29.05px
+}
+
