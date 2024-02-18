@@ -1,5 +1,8 @@
 @import url(../vendor/normalize.css);
+@import url(../Inter_web/Inter-VariableFont_slnt\,wght.ttf);
 @import url(../blocks/page.css);
 @import url(../blocks/header.css);
+@import url(../blocks/profile.css);
 @import url(../blocks/cards.css);
 @import url(../blocks/footer.css);
+

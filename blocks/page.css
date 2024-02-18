@@ -1,6 +1,8 @@
 .page {
-    background-color: black;
-    padding: 45px 200px 145px;
-    font-family: "Inter", Arial, sans-serif;
-    overflow: hidden;
+  max-width: 880px;
+  background-color: black;
+  font-family: "Inter", Arial, sans-serif;
+  padding: 45px 200px 145px;
+  margin: 0 auto;
+  /* width: 1280px; */
 }
