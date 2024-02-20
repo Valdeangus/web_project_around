@@ -17,7 +17,7 @@
     flex-direction: row;
     /* justify-content: space-between; */
     align-items: center;
-    width: 880px;
+    max-width: 880px;
     margin-top: 41px;
 }
 
@@ -68,6 +68,7 @@
     border-color: white;
     font-size: 40px;
     margin-left: auto;
+    
 }
 
 .header__profile_edit {

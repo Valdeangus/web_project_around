@@ -23,13 +23,25 @@
                     <div class="header__info_profile">
                         <h1 class="header__name">Jacques Cousteau</h1>
                         <button class="header__profile_edit">
-                            <img src="./imagens/pen.png" alt="" class="">
+                            <img src="./imagens/pen.png" alt="" class="button__edit">
                         </button>
                     </div>
                     <p class="header__subtitle">Explorar</p>
                 </div>
                 <button class="header__button_add"> + </button>
             </div>
+            <script>
+                document.querySelector(".header__profile_edit").addEventListener("click", function(){
+                    document.querySelector(".container").style.display = "flex";
+                }) 
+                document.querySelector(".header__button_add").addEventListener("click", function(){
+                    document.querySelector(".container").style.display = "flex";
+                }) 
+                document.querySelector(".container__close").addEventListener("click", function()
+                {
+                    document.querySelector(".container").style.display = "no";
+                })
+            </script>
         </section>
         <section class="card">
             <ul class="cards">
@@ -85,7 +97,7 @@
                     <div class="card__imagens_img">
                         <img src="./imagens/mirror.png" alt="" class="mirror">
                         <div class="card__texto">
-                            <h2 class="card__imagens_texto">Vanoise Nationaooo</h2>
+                            <h2 class="card__imagens_texto">Vanoise National Park</h2>
                             <div class="card__button">
                                 <button class="card__button_heart"></button>
                                 <!-- <span class="card__heart-count">0</span> -->
@@ -106,6 +118,31 @@
                     </div>
                 </li>
             </ul>
+            <div class="container">
+                <button class="container__close close"><img src="./imagens/Close.png" alt="" class=""></button>
+                <div class="popup">
+                    <h2 class="popup__profile">Editar perfil</h2>
+                    <div class="popup__name">
+                        <form action="#" class="popup__form">
+                            <div class="form__fieldset">
+                                <input
+                                type="text"
+                                id="name"
+                                placeholder="Nome"
+                                class="form__input"
+                                required />
+                                <input
+                                type="text"
+                                id="ocupation"
+                                placeholder="Ocupação"
+                                class="form__input"
+                                required />
+                                <button class="form__button">Salvar</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
 </body>
