@@ -1,5 +1,5 @@
 const forms = document.querySelector(".container");
-const editButton = document.querySelector(".profile__header_edit");
+const editButton = document.querySelector(".profile__header-edit");
 const closeButton = document.querySelector(".container__close");
 
 const formElement = document.querySelector(".popup__button");
