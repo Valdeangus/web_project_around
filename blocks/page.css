@@ -4,5 +4,17 @@
   font-family: "Inter", Arial, sans-serif;
   padding: 45px 200px 145px;
   margin: 0 auto;
-  /* width: 1280px; */
+}
+
+@media screen and (max-width: 1024px) {
+  .page {
+    max-width: 768px;
+    padding: 28px 19px 36px;
+  }
+}
+
+@media screen and (max-width: 544px) {
+  .page {
+    max-width: 320px;
+  }
 }

@@ -8,6 +8,31 @@
 </head>
 
 <body class="page">
+    <div class="container">
+        <button class="container__close close"><img src="./imagens/Close.png" alt="" class=""></button>
+        <div class="popup">
+            <h2 class="popup__profile">Editar perfil</h2>
+            <div class="popup__name">
+                <form action="#" class="popup__form">
+                    <div class="form__fieldset">
+                        <input
+                        type="text"
+                        id="name"
+                        placeholder="Nome"
+                        class="form__input form__input-name"
+                        required />
+                        <input
+                        type="text"
+                        id="ocupation"
+                        placeholder="Ocupação"
+                        class="form__input form__input-job"
+                        required />
+                        <input type="submit" class="form__button" value="Salvar">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
     <header class="header">
         <div class="header__logo"> 
             <img src="./imagens/Vector.png" alt="" class="header__logo_img">
@@ -15,36 +40,24 @@
     </header>
     <main class="main">
         <section class="profile">
-            <div class="header__profile">
-                <div class="header__profile_information">
+            <div class="profile__header">
+                <div class="profile__header_information">
                     <img src="./imagens/Avatar.png" alt="" class="profile__imagem">
                 </div>
-                <div class="header__info">
-                    <div class="header__info_profile">
-                        <h1 class="header__name">Jacques Cousteau</h1>
-                        <button class="header__profile_edit">
+                <div class="profile__info">
+                    <div class="profile__info_header">
+                        <h1 class="header__name"></h1>
+                        <button type="button" class="profile__header_edit">
                             <img src="./imagens/pen.png" alt="" class="button__edit">
                         </button>
                     </div>
-                    <p class="header__subtitle">Explorar</p>
+                    <p class="header__subtitle"></p>
                 </div>
                 <button class="header__button_add"> + </button>
             </div>
-            <script>
-                document.querySelector(".header__profile_edit").addEventListener("click", function(){
-                    document.querySelector(".container").style.display = "flex";
-                }) 
-                document.querySelector(".header__button_add").addEventListener("click", function(){
-                    document.querySelector(".container").style.display = "flex";
-                }) 
-                document.querySelector(".container__close").addEventListener("click", function()
-                {
-                    document.querySelector(".container").style.display = "no";
-                })
-            </script>
         </section>
-        <section class="card">
-            <ul class="cards">
+        <section class="cards">
+            <ul class="card">
                 <li class="card__imagens">
                     <div class="card__imagens_img">
                         <img src="/imagens/valley.png" alt="" class="valey">
@@ -118,39 +131,15 @@
                     </div>
                 </li>
             </ul>
-            <div class="container">
-                <button class="container__close close"><img src="./imagens/Close.png" alt="" class=""></button>
-                <div class="popup">
-                    <h2 class="popup__profile">Editar perfil</h2>
-                    <div class="popup__name">
-                        <form action="#" class="popup__form">
-                            <div class="form__fieldset">
-                                <input
-                                type="text"
-                                id="name"
-                                placeholder="Nome"
-                                class="form__input"
-                                required />
-                                <input
-                                type="text"
-                                id="ocupation"
-                                placeholder="Ocupação"
-                                class="form__input"
-                                required />
-                                <button class="form__button">Salvar</button>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
         </section>
     </main>
+    <footer class="footer">
+        <div class="footer__copyright">
+            <p class="footer__text">
+                © 2024 Around The U.S.
+            </p>
+        </div>
+    </footer>
+    <script src="scrip/index.js"></script>
 </body>
-<footer class="footer">
-    <div class="footer__copyright">
-        <p class="footer__text">
-            © 2024 Around The U.S.
-        </p>
-    </div>
-</footer>
 </html>

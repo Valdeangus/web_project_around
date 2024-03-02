@@ -1,5 +1,18 @@
 .footer {
-    max-width: 880px;
-    color: white;
-    margin-top: 100px;
+  max-width: 880px;
+  color: #545454;
+  margin-top: 100px;
+}
+
+@media screen and (max-width: 1024px) {
+}
+
+@media screen and (max-width: 544px) {
+  .footer {
+    margin-top: 50px;
+  }
+
+  .footer__text {
+    margin: 0;
+  }
 }

@@ -1,82 +1,25 @@
-
-.header{
-    max-width: 880px;
-
+.header {
+  max-width: 880px;
 }
 
 .header__logo {
-    border-bottom: 1px solid grey;
+  border-bottom: 1px solid grey;
 }
 
 .header__logo_img {
-    margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 
-.header__profile {
-    display: flex;
-    flex-direction: row;
-    /* justify-content: space-between; */
-    align-items: center;
-    max-width: 880px;
-    margin-top: 41px;
+@media screen and (max-width: 1024px) {
 }
 
-.header__profile_information {
-    display: flex;
-    /* flex-direction: row; */
-}
+@media screen and (max-width: 544px) {
+  .header {
+    max-width: 320px;
+  }
 
-.profile__imagem {
-    margin-right: 30px;
-}
+  .header__logo {
+    max-width: 320px;
+  }
 
-.header__info {
-    width: 340px;
-}
-
-.header__info_profile {
-    display: flex;
-    align-items: center;
-    
-    /* justify-content: space-between; */
-    width: 415px;
-}
-
-.header__name {
-    /* font-family: "Inter"; */
-    color: white;
-    font-size: 42px;
-    font-weight: 500;
-    line-height: 48px;
-    margin: 0;
-}
-
-.header__subtitle {
-    /* font-family: "Inter"; */
-    color: white;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 21.78px;
-    margin: 0;
-}
-
-.header__button_add {
-    background-color: black;
-    color: white;
-    width: 150px;
-    height: 50px;
-    border-color: white;
-    font-size: 40px;
-    margin-left: auto;
-    
-}
-
-.header__profile_edit {
-    background-color: black;
-    /* border: 1px; */
-    /* color: black; */
-    width: 28px;
-    height: 28px;
-    margin-left: 18px;
-    /* border-color: white; */
 }

@@ -1,10 +1,15 @@
 .container {
-  background: rgba(0, 0, 0, 0.6);
-  width: 880px;
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
   height: 100%;
-  position: absolute;
+  position: fixed;
   top: 0;
   display: none;
+  align-items: center;
+  height: 100%;
+  justify-content: center;
+  left: 0;
+  z-index: 1;
 }
 
 .container__opened {
@@ -16,21 +21,28 @@
 .close {
   background: transparent;
   position: relative;
-  bottom: 160px;
-  left: 470px;
-  /* border: 1px solid red; */
+  bottom: 180px;
+  left: 450px;
+  border: none;
+}
+
+.close:hover {
+  opacity: 0.5;
+  transition: 0.8s;
 }
 
 .popup {
+  background-color: rgb(255, 255, 255);
   position: relative;
+  right: 20px;
+  bottom: 10px;
   font-family: "Inter", Helvetica, sans-serif;
   font-weight: 900;
   max-width: 430px;
   max-height: 330px;
   border-radius: 3%;
-  background-color: rgb(255, 255, 255);
-  /* border: 3px solid rgb(255, 0, 0); */
   padding: 34px 36px 0 36px;
+  z-index: 1;
 }
 
 .popup__profile {
@@ -62,5 +74,54 @@
   width: 358px;
   height: 50.15px;
   display: block;
-  /* margin: 0 36px; */
+}
+
+.form__button:hover {
+  opacity: 0.5;
+  transition: 0.8s;
+}
+
+@media screen and (max-width: 1024px) {
+  .container {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 544px) {
+  .container {
+    width: 100%;
+  }
+
+  .close {
+    position: absolute;
+    bottom: 570px;
+    left: 355px;
+  }
+
+  .popup {
+    bottom: 50px;
+    left: 0px;
+    max-width: 282px;
+    padding: 25px 19px 0;
+    margin: 0;
+  }
+
+  .popup__form {
+    max-width: 282px;
+    display: flex;
+    justify-content: center;
+    margin: 76px auto 36px;
+  }
+
+  .form__fieldset {
+    max-width: 282px;
+  }
+
+  .form__input {
+    max-width: 238px;
+  }
+
+  .form__button {
+    width: 100%;
+  }
 }
