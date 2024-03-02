@@ -78,7 +78,6 @@
   .profile {
     max-width: 320px;
   }
-}
 
 .profile__header {
   flex-direction: column;
@@ -113,4 +112,5 @@
   height: 50px;
   font-size: 40px;
   margin: 0;
+}
 }
