@@ -21,7 +21,7 @@
   border-radius: 3%;
 }
 
-.card__imagens_img {
+.card__img {
   max-width: 282px;
 }
 
@@ -33,7 +33,7 @@
   padding: 25px 20px;
 }
 
-.card__imagens_texto {
+.card__texto_imagens {
   font-weight: 900;
   font-size: 24px;
   line-height: 29.05px;
@@ -51,7 +51,7 @@
   gap: 3px;
 }
 
-.card__button_heart {
+.card__button-heart {
   background: url(../imagens/Group.png);
   background-repeat: no-repeat;
   width: 21px;
@@ -59,7 +59,7 @@
   border: none;
 }
 
-.card__button_heart:hover {
+.card__button-heart:hover {
   opacity: 0.5;
   transition: 0.8s;
 }

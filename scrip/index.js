@@ -6,8 +6,8 @@ const formElement = document.querySelector(".popup__button");
 
 const nameInput = document.querySelector(".popup__input-name");
 const jobInput = document.querySelector(".popup__input-job");
-const namePerson = document.querySelector(".header__name");
-const jobPerson = document.querySelector(".header__subtitle")
+const namePerson = document.querySelector(".profile__name");
+const jobPerson = document.querySelector(".profile__subtitle")
 
 namePerson.textContent = "Jacques Costeau";
 jobPerson.textContent = "Explorador";
