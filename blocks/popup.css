@@ -58,7 +58,7 @@
   margin: 34px 0 36px 0;
 }
 
-.form__input {
+.popup__input {
   color: black;
   width: 358px;
   display: block;
@@ -67,7 +67,7 @@
   border-bottom: 1px solid black;
 }
 
-.form__button {
+.popup__button {
   background-color: black;
   color: white;
   width: 358px;
@@ -75,7 +75,7 @@
   display: block;
 }
 
-.form__button:hover {
+.pop__button:hover {
   opacity: 0.5;
   transition: 0.8s;
 }
@@ -112,15 +112,15 @@
     margin: 76px auto 36px;
   }
 
-  .form__fieldset {
+  .popup__form_fieldset {
     max-width: 282px;
   }
 
-  .form__input {
+  .popup__input {
     max-width: 238px;
   }
 
-  .form__button {
+  .popup__button {
     width: 100%;
   }
 }

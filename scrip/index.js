@@ -1,11 +1,11 @@
 const forms = document.querySelector(".container");
-const editButton = document.querySelector(".header__profile_edit");
+const editButton = document.querySelector(".profile__header_edit");
 const closeButton = document.querySelector(".container__close");
 
-const formElement = document.querySelector(".form__button");
+const formElement = document.querySelector(".popup__button");
 
-const nameInput = document.querySelector(".form__input-name");
-const jobInput = document.querySelector(".form__input-job");
+const nameInput = document.querySelector(".popup__input-name");
+const jobInput = document.querySelector(".popup__input-job");
 const namePerson = document.querySelector(".header__name");
 const jobPerson = document.querySelector(".header__subtitle")
 
