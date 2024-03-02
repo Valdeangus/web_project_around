@@ -33,7 +33,7 @@
   padding: 25px 20px;
 }
 
-.card__texto_imagens {
+.card__texto-imagens {
   font-weight: 900;
   font-size: 24px;
   line-height: 29.05px;
@@ -64,7 +64,7 @@
   transition: 0.8s;
 }
 
-.card__button_heart_isActive {
+.card__button-heart_isActive {
   background: url(../imagens/Union.png);
   background-repeat: no-repeat;
   width: 21px;
