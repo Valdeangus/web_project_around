@@ -5,6 +5,10 @@
   position: absolute;
   top: 0;
   display: none;
+}
+
+.container__opened {
+  display: flex;
   justify-content: center;
   align-items: center;
 }
