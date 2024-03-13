@@ -2,7 +2,7 @@ const forms = document.querySelector(".container");
 const editButton = document.querySelector(".profile__header-edit");
 const closeButton = document.querySelector(".container__close");
 
-const formElement = document.querySelector(".popup__button");
+const formElement = document.querySelector(".popup__form");
 
 const nameInput = document.querySelector(".popup__input-name");
 const jobInput = document.querySelector(".popup__input-job");
