@@ -20,7 +20,8 @@ closeButton.addEventListener("click", () => {
   forms.classList.remove("container__opened");
 });
 
-formElement.addEventListener("click", (evt) => {
+formElement.addEventListener("submit", (evt) => {
+  console.log("teste")
   evt.preventDefault();
 
     namePerson.textContent = nameInput.value;
